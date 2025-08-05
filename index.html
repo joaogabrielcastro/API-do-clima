@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js" defer></script>
+</head>
+<body>
+  <!-- Google fonts -->  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- Google Awersome --> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<div class="container">
+    <div class="form">
+        <h3>Check your weather now !</h3>
+        <div class="form_container">
+            <input type="text" id="city_input" placeholder="select your city">
+            <button class = "search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+    </div>
+    <div id="weather-data">
+        <h2>
+            <i class="fa-solid fa-location dot"></i>
+            <span id="city_name">City Name</span>
+            <img src="" alt="flag" id="country">
+        </h2>
+        <p id="temperature"><span>24</span>&deg;C</p>
+        <div class="description-container">
+            <p class="description" >Clear sky</p>
+            <img src="" alt="condition of weather" id="weather-icon">
+        </div>
+    </div>
+</div>
+</body>
+</html>
